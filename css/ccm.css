@@ -401,26 +401,27 @@ p {
 }
 
 #schedule {
-    padding: 72px 0;
+    padding: 42px 0;
     background: #FBFBFB;
 }
 
 #footer {
     padding: 72px 0;
-    background-color: #333233;
+    background: #FBFBFB;
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.08);
 }
 
 #footer hr {
     margin-top: 64px;
-    color: #FFFFFF;
+    color: #333233;
 }
 
 .copyright {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 16px;
     text-align: center;
-    color: #FFFFFF;
+    color: #333233;
 }
 
 .navbar {
@@ -438,17 +439,8 @@ p {
     border-bottom: 4px solid #FFC300!important;
 }
 
-#comite {
+#contacto {
     padding: 40px 0;
-}
-
-#comite h3 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 27px;
-    color: #EF255A;
-    margin-bottom: 28px;
-
 }
 
 .nav-tabs .nav-link {
@@ -516,6 +508,16 @@ tr:hover {
 
 tr:hover .schedule-time, tr:hover  .schedule-title, tr:hover .schedule-speaker {
     color: #00AEA8!important;
+}
+
+#contacto {
+    padding: 40px 0;
+}
+
+#papime {
+    padding: 20px 0;
+    background-color: rgba(0, 174, 168, 0.1);
+    color: #00AEA8;
 }
 
 @media (min-width: 992px) {
